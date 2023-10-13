@@ -5,7 +5,7 @@ This repository contains a collection of functions for working with singly-linke
 ## Linked List Overview
 <img width="569" alt="singly_linked_list" src="https://github.com/Madmohammed22/Linked-list/assets/121677014/7e877c92-1597-4302-8b84-12cdcd4084b9">
 
-A singly-linked list is a fundamental data structure that consists of nodes, each containing a value and a pointer to the next node. Linked lists are versatile and can be used for various purposes, such as maintaining a collection of data, implementing dynamic data structures, and more. This library offers a set of functions to work with singly-linked lists.
+A singly-linked list is a fundamental data structure that consists of nodes, each containing a value and a pointer to the next node. Linked lists are versatile and can be used for various purposes, such as maintaining a collection of data, implementing dynamic data structures, and more. This library offers a set of functions to work with singly linked lists.
 
 ## Available Functions
 
@@ -33,23 +33,15 @@ Applies the function `f` to each element in the linked list.
 
 Applies the function `f` to elements in the linked list that match the criteria defined by `cmp`.
 
-### 7. `int cmp(const void *a, const void *b)`
-
-A comparison function used for searching and comparison operations.
-
-### 8. `bool cmp1(const void *a, const void *b)`
-
-A specialized comparison function for specific use cases.
-
-### 9. `int search(void *arr, int n, int size_int, void *x, bool(cmp1)(const void *, const void *))`
+### 7. `int search(void *arr, int n, int size_int, void *x, bool(cmp1)(const void *, const void *))`
 
 Searches for an element `x` in an array `arr` of size `n` using the comparison function `cmp1`.
 
-### 10. `int ft_list_size(struct ListNode *head)`
+### 8. `int ft_list_size(struct ListNode *head)`
 
 Returns the size (number of elements) of the linked list.
 
 
 For detailed usage instructions and examples, please refer to the source code and comments in the `ft_list.h` file.
 
-Feel free to use and contribute to this repository for enhancing your linked list operations in C.
+Feel free to use and contribute to this repository to enhance your linked list operations in C.
