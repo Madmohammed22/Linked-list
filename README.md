@@ -41,6 +41,27 @@ Searches for an element `x` in an array `arr` of size `n` using the comparison f
 
 Returns the size (number of elements) of the linked list.
 
+### 9. `void ft_list_reverse(struct ListNode **begin_list)`
+
+This function is used to reverse the order of nodes in the linked list, effectively flipping the list in the opposite direction. It takes a pointer to a pointer to the beginning of the linked list (`begin_list`) as a parameter and modifies the list in place.
+
+**Parameters:**
+- `begin_list`: A pointer to a pointer to the first node of the linked list.
+
+**Example Usage:**
+
+```c
+struct ListNode *list = NULL;
+
+// Add nodes to the list
+ft_push(&list, 1);
+ft_push(&list, 2);
+ft_push(&list, 3);
+ft_push(&list, 4);
+
+// Reverse the list
+ft_list_reverse(&list);
+
 
 For detailed usage instructions and examples, please refer to the source code and comments in the `ft_list.h` file.
 
