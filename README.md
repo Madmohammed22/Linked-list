@@ -1,11 +1,9 @@
 # Linked List Functions
 
-<img width="569" alt="singly_linked_list" src="https://github.com/Madmohammed22/Linked-list/assets/121677014/7e877c92-1597-4302-8b84-12cdcd4084b9">
-
-
 This repository contains a collection of functions for working with singly-linked lists in C. These functions are implemented in the `ft_list.h` header file and are designed to provide various operations on linked lists, including insertion, traversal, manipulation, and search. Below is an overview of the linked list and some of the useful functions available in this library.
 
 ## Linked List Overview
+<img width="569" alt="singly_linked_list" src="https://github.com/Madmohammed22/Linked-list/assets/121677014/7e877c92-1597-4302-8b84-12cdcd4084b9">
 
 A singly-linked list is a fundamental data structure that consists of nodes, each containing a value and a pointer to the next node. Linked lists are versatile and can be used for various purposes, such as maintaining a collection of data, implementing dynamic data structures, and more. This library offers a set of functions to work with singly-linked lists.
 
