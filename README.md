@@ -1,5 +1,6 @@
 # Linked List Functions
-![Screenshot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcourses.engr.illinois.edu%2Fcs225%2Fsp2019%2Fnotes%2Flinked-lists%2F&psig=AOvVaw2NJCpHTJ257vd8xbpGAXKp&ust=1697245023947000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiW2sXo8YEDFQAAAAAdAAAAABAE)
+
+<img width="569" alt="singly_linked_list" src="https://github.com/Madmohammed22/Linked-list/assets/121677014/7e877c92-1597-4302-8b84-12cdcd4084b9">
 
 
 This repository contains a collection of functions for working with singly-linked lists in C. These functions are implemented in the `ft_list.h` header file and are designed to provide various operations on linked lists, including insertion, traversal, manipulation, and search. Below is an overview of the linked list and some of the useful functions available in this library.
