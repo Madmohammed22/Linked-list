@@ -1,5 +1,6 @@
 # Linked List Functions
-![Screenshot 2023-03-21 151700](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcourses.engr.illinois.edu%2Fcs225%2Fsp2019%2Fnotes%2Flinked-lists%2F&psig=AOvVaw2NJCpHTJ257vd8xbpGAXKp&ust=1697245023947000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiW2sXo8YEDFQAAAAAdAAAAABAE)
+![Screenshot 2023-03-21 151700](![image](https://github.com/Madmohammed22/Linked-list/assets/121677014/28bbad18-bc52-4818-a3bb-8d3029350529)
+)
 
 This repository contains a collection of functions for working with singly-linked lists in C. These functions are implemented in the `ft_list.h` header file and are designed to provide various operations on linked lists, including insertion, traversal, manipulation, and search. Below is an overview of the linked list and some of the useful functions available in this library.
 
@@ -49,27 +50,6 @@ Searches for an element `x` in an array `arr` of size `n` using the comparison f
 
 Returns the size (number of elements) of the linked list.
 
-### 11. `void ft_list_reverse(struct ListNode **begin_list)`
-
-Reverses the order of nodes in the linked list.
-
-### 12. `struct ListNode *ft_list_find(struct ListNode *begin_list, void *data_ref, int (*cmp)(const void *, const void *))`
-
-Finds the first occurrence of an element matching the `data_ref` in the linked list using the comparison function `cmp`.
-
-### 13. `void ft_free(struct ListNode *head)`
-
-Frees the memory allocated for the linked list nodes.
-
-### 14. `void free_fct(void *)`
-
-A function to free dynamically allocated memory. Used in conjunction with `ft_list_remove_if`.
-
-### 15. `void ft_list_remove_if(struct ListNode *begin_list, void *data_ref, int (*cmp)(const void *, const void *), void (*free_fct)(void *))`
-
-Removes nodes from the linked list that match the criteria defined by `data_ref` and `cmp`. The `free_fct` function is used to free the memory of removed nodes.
-
-These functions offer a range of operations to manipulate and interact with linked lists, making them a valuable tool for various applications.
 
 For detailed usage instructions and examples, please refer to the source code and comments in the `ft_list.h` file.
 
